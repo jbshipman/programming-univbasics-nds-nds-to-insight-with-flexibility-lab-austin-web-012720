@@ -54,7 +54,7 @@ def movies_with_director_key(name, movies_collection)
   
   while i < movies_collection.length do 
     dataMovie = movies_collection[i]
-    movieArray << 
+    movieArray << movie_with_director_name(name, dataMovie)
     
   end 
   
