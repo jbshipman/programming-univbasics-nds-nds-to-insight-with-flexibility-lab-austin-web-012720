@@ -87,7 +87,7 @@ def gross_per_studio(collection)
     end 
     i += 1 
   end 
-  studioGrossResult
+  resultG
 end
 
 def movies_with_directors_set(source)
