@@ -56,8 +56,10 @@ def movies_with_director_key(name, movies_collection)
     dataMovie = movies_collection[i]
     movieArray << movie_with_director_name(name, dataMovie)
     
+    i += 1 
+    
   end 
-  
+  movieArray
 end
 
 
