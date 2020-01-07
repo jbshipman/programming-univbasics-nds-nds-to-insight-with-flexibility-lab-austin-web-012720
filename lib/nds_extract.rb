@@ -52,7 +52,10 @@ def movies_with_director_key(name, movies_collection)
   movieArray = []
   i = 0 
   
-  while i < movies_collection[i]
+  while i < movies_collection.length do 
+    
+    
+  end 
   
 end
 
